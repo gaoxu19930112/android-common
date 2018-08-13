@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_update_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="请升级app版本至" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/aorise_gray_line" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:paddingLeft="@dimen/common_size_20dp"
+        android:paddingRight="@dimen/common_size_20dp"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/common_size_20dp"
+        android:gravity="center_vertical"
+        android:textSize="13sp"
+        android:text="修改了BUG" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_up"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/common_size_20dp"
+        android:max="100"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/visual_download_app_progress_sty"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_ignore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_size_20dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/radio_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_size_20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_size_15dp"
+            android:textSize="13sp"
+            android:text="忽略此版本" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/common_size_10dp"
+        android:background="@color/aorise_gray_line" />
+
+    <LinearLayout
+        android:id="@+id/cancel_sure_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/gray"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/aorise_gray_line" />
+
+        <TextView
+            android:id="@+id/sure"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/aorise_gray_line" />
+</LinearLayout>

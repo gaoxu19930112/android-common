@@ -1,0 +1,7 @@
+// ext is a gradle closure allowing the declaration of global properties
+ext {
+    PUBLISH_ORG = 'aorise-android-group'
+    PUBLISH_GROUP_ID = 'cn.aorise'
+    PUBLISH_ARTIFACT_ID = 'android-common'
+    //PUBLISH_VERSION = android.defaultConfig.versionName
+}

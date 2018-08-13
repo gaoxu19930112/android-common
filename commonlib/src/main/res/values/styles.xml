@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/common_font_size_middle</item>
+    </style>
+
+    <style name="FullHeightDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowAnimationStyle">@style/animfade</item>
+    </style>
+
+    <!-- 全屏的window -->
+    <style name="AppTheme.FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 透明的window -->
+    <style name="Theme.AppCompat.Translucent" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="animfade">
+        <item name="android:activityOpenEnterAnimation">@anim/common_push_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/common_push_static</item>
+        <item name="android:activityCloseEnterAnimation">@anim/common_push_static</item>
+        <item name="android:activityCloseExitAnimation">@anim/common_push_right_out</item>
+    </style>
+
+    <style name="AoriseCustomTabLayout" parent="Widget.Design.TabLayout">
+        <!--<item name="tabIndicatorColor">@color/blue</item>-->
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">@color/ivory</item>
+        <!--<item name="tabSelectedTextColor">@color/royalblue</item>-->
+        <item name="android:textSize">@dimen/common_font_size_micro</item>
+        <!--<item name="android:textColor">@color/grey</item>-->
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <!--<style name="AoriseCheckBox" parent="Theme.AppCompat.Light">-->
+    <!--<item name="colorControlNormal">@color/green</item>-->
+    <!--<item name="colorControlActivated">@color/gray</item>-->
+    <!--</style>-->
+
+    <!--<style name="AoriseEditText" parent="Theme.AppCompat.Light">-->
+    <!--<item name="colorControlNormal">@color/aoriseDividNormal</item>-->
+    <!--<item name="colorControlActivated">@color/aoriseDividActivated</item>-->
+    <!--</style>-->
+
+    <!--<style name="AoriseToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">-->
+    <!--<item name="android:minWidth">0dp</item>-->
+    <!--<item name="android:background">@color/red</item>-->
+    <!--<item name="android:padding">@dimen/aorise_padding_micro</item>-->
+    <!--<item name="android:scaleType">centerInside</item>-->
+    <!--</style>-->
+</resources>

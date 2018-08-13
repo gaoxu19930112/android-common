@@ -1,0 +1,70 @@
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+//apply from: '../../config/fat-aar.gradle'
+
+greendao {
+    schemaVersion 1
+    targetGenDir 'src/main/java'
+    daoPackage 'cn.aorise.sample.db'
+}
+
+/**
+ * 1. gradlew clean
+ * 2. gradlew build /assembleRelease
+ */
+android {
+    compileSdkVersion 26
+    // buildToolsVersion "26.0.2"
+    dataBinding {
+        enabled = true
+    }
+    defaultConfig {
+        applicationId "cn.android.platform"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0.2"
+        multiDexEnabled true
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        def BASE_URL = "BASE_URL"
+        def MOCK_MODE = "MOCK_MODE"
+        release {
+            buildConfigField "Boolean", MOCK_MODE, "false"
+            buildConfigField "String", BASE_URL, '"https://api.douban.com/"'
+            minifyEnabled false
+            shrinkResources false
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.release
+        }
+        debug {
+            buildConfigField "Boolean", MOCK_MODE, "false"
+            buildConfigField "String", BASE_URL, '"https://api.douban.com/"'
+            minifyEnabled false
+            shrinkResources false
+            zipAlignEnabled false
+            //signingConfig signingConfigs.release
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation 'junit:junit:4.12'
+    implementation project(':commonlib')
+}
