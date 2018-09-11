@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
 <!--
   Copyright 2017 Zhihu Inc.
 
@@ -15,18 +14,8 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:background="@android:color/white"
-              android:orientation="vertical">
-
-   <TextView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:text="Hello World"
-       android:gravity="center"
-      />
-
-</LinearLayout>
-</layout>
+<paths>
+    <external-path
+        name="my_images"
+        path="Pictures"/>
+</paths>

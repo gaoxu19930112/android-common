@@ -10,6 +10,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.common.R;
 import com.android.common.core.module.download.DownloadListener;
 import com.android.common.core.module.download.DownloadTask;
 import com.android.common.core.network.APICallback;
@@ -25,7 +26,6 @@ import com.trello.rxlifecycle2.android.ActivityEvent;
 
 import java.util.List;
 
-import cn.aorise.common.R;
 
 
 

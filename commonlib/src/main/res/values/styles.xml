@@ -21,7 +21,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:fitsSystemWindows">true</item>
-        <item name="android:windowAnimationStyle">@style/animfade</item>
+        <item name="@android:windowAnimationStyle">@style/commonAnimationActivity</item>
     </style>
 
     <!-- 全屏的window -->
@@ -42,14 +42,14 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="animfade">
+    <style name="commonAnimationActivity">
         <item name="android:activityOpenEnterAnimation">@anim/common_push_left_in</item>
         <item name="android:activityOpenExitAnimation">@anim/common_push_static</item>
         <item name="android:activityCloseEnterAnimation">@anim/common_push_static</item>
         <item name="android:activityCloseExitAnimation">@anim/common_push_right_out</item>
     </style>
 
-    <style name="AoriseCustomTabLayout" parent="Widget.Design.TabLayout">
+    <style name="commonCustomTabLayout" parent="Widget.Design.TabLayout">
         <!--<item name="tabIndicatorColor">@color/blue</item>-->
         <item name="tabIndicatorHeight">0dp</item>
         <item name="tabPaddingStart">12dp</item>
@@ -61,20 +61,20 @@
         <item name="textAllCaps">true</item>
     </style>
 
-    <!--<style name="AoriseCheckBox" parent="Theme.AppCompat.Light">-->
+    <!--<style name="commonCheckBox" parent="Theme.AppCompat.Light">-->
     <!--<item name="colorControlNormal">@color/green</item>-->
     <!--<item name="colorControlActivated">@color/gray</item>-->
     <!--</style>-->
 
-    <!--<style name="AoriseEditText" parent="Theme.AppCompat.Light">-->
-    <!--<item name="colorControlNormal">@color/aoriseDividNormal</item>-->
-    <!--<item name="colorControlActivated">@color/aoriseDividActivated</item>-->
+    <!--<style name="commonEditText" parent="Theme.AppCompat.Light">-->
+    <!--<item name="colorControlNormal">@color/commonDividNormal</item>-->
+    <!--<item name="colorControlActivated">@color/commonDividActivated</item>-->
     <!--</style>-->
 
-    <!--<style name="AoriseToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">-->
+    <!--<style name="commonToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">-->
     <!--<item name="android:minWidth">0dp</item>-->
     <!--<item name="android:background">@color/red</item>-->
-    <!--<item name="android:padding">@dimen/aorise_padding_micro</item>-->
+    <!--<item name="android:padding">@dimen/common_padding_micro</item>-->
     <!--<item name="android:scaleType">centerInside</item>-->
     <!--</style>-->
 </resources>

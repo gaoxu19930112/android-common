@@ -20,7 +20,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import cn.aorise.common.R;
+import com.android.common.R;
+
 
 /**
  * <pre>

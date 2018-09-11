@@ -12,32 +12,32 @@
     <!-- 字体大小 -->
 
     <!-- 组件 -->
-<!--    <dimen name="aorise_space_nano">2dp</dimen>
-    <dimen name="aorise_space_micro">4dp</dimen>
-    <dimen name="aorise_space_small">8dp</dimen>
-    <dimen name="aorise_space_normal">10dp</dimen>
-    <dimen name="aorise_space_medium">16dp</dimen>
-    <dimen name="aorise_space_middle">24dp</dimen>
-    <dimen name="aorise_space_big">32dp</dimen>
-    <dimen name="aorise_space_large">48dp</dimen>
-    <dimen name="aorise_space_xlarge">64dp</dimen>
-    <dimen name="aorise_space_huge">96dp</dimen>
+<!--    <dimen name="common_space_nano">2dp</dimen>
+    <dimen name="common_space_micro">4dp</dimen>
+    <dimen name="common_space_small">8dp</dimen>
+    <dimen name="common_space_normal">10dp</dimen>
+    <dimen name="common_space_medium">16dp</dimen>
+    <dimen name="common_space_middle">24dp</dimen>
+    <dimen name="common_space_big">32dp</dimen>
+    <dimen name="common_space_large">48dp</dimen>
+    <dimen name="common_space_xlarge">64dp</dimen>
+    <dimen name="common_space_huge">96dp</dimen>
 
-    <dimen name="aorise_width_huge">240dp</dimen>
-    <dimen name="aorise_width_xlarge">180dp</dimen>
-    <dimen name="aorise_width_large">120dp</dimen>
-    <dimen name="aorise_width_big">60dp</dimen>
-    <dimen name="aorise_width_middle">48dp</dimen>
-    <dimen name="aorise_width_normal">32dp</dimen>
-    <dimen name="aorise_width_small">16dp</dimen>
+    <dimen name="common_width_huge">240dp</dimen>
+    <dimen name="common_width_xlarge">180dp</dimen>
+    <dimen name="common_width_large">120dp</dimen>
+    <dimen name="common_width_big">60dp</dimen>
+    <dimen name="common_width_middle">48dp</dimen>
+    <dimen name="common_width_normal">32dp</dimen>
+    <dimen name="common_width_small">16dp</dimen>
 
-    <dimen name="aorise_height_huge">240dp</dimen>
-    <dimen name="aorise_height_xlarge">180dp</dimen>
-    <dimen name="aorise_height_large">120dp</dimen>
-    <dimen name="aorise_height_big">60dp</dimen>
-    <dimen name="aorise_height_middle">48dp</dimen>
-    <dimen name="aorise_height_normal">32dp</dimen>
-    <dimen name="aorise_height_small">16dp</dimen>-->
+    <dimen name="common_height_huge">240dp</dimen>
+    <dimen name="common_height_xlarge">180dp</dimen>
+    <dimen name="common_height_large">120dp</dimen>
+    <dimen name="common_height_big">60dp</dimen>
+    <dimen name="common_height_middle">48dp</dimen>
+    <dimen name="common_height_normal">32dp</dimen>
+    <dimen name="common_height_small">16dp</dimen>-->
     <!-- 组件 -->
 
     <!-- 其他 -->

@@ -128,7 +128,7 @@ public class BaseConfig {
      */
     public static class BroadcastKey {
         // 登录后的用户信息
-        public static final String CN_AORISE_PLATFORM_LOGIN_ACCOUNT = "cn.aorise.platform.login.ACCOUNT";
+        public static final String COM_ANDROID_COMMON_PLATFORM_LOGIN_ACCOUNT = "com.android.common.platform.login.ACCOUNT";
     }
 
     /**

@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.common.R;
 import com.android.common.core.config.BaseConfig;
 import com.android.common.core.util.BaseLog;
 import com.android.common.core.util.CrashHandlerUtils;
@@ -23,7 +24,6 @@ import com.umeng.analytics.MobclickAgent;
 
 import java.io.File;
 
-import cn.aorise.common.R;
 
 
 

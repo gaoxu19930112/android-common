@@ -1,10 +1,11 @@
 package com.android.common.core.network;
 
+import com.android.common.R;
 import com.android.common.core.ui.base.BaseActivity;
 import com.android.common.core.util.NetworkUtils;
 import com.trello.rxlifecycle2.LifecycleTransformer;
 
-import cn.aorise.common.R;
+
 import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
 import io.reactivex.ObservableTransformer;

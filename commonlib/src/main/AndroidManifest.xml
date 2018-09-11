@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="cn.aorise.common">
+          package="com.android.common">
 
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AoriseLib</string>
+    <string name="app_name">commonLib</string>
 
     <string name="common_loading_tips">加载中&#8230;</string>
     <string name="common_dialog_cancel">取消</string>

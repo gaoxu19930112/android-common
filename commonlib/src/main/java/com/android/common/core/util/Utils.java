@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.android.common.R;
 import com.android.common.core.config.BaseConfig;
 import com.android.common.core.glide.GlideManager;
 import com.android.common.core.manager.ActivityManager;
@@ -23,7 +24,7 @@ import java.io.File;
 import java.io.Serializable;
 import java.util.List;
 
-import cn.aorise.common.R;
+
 
 
 /**

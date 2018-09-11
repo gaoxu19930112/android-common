@@ -15,7 +15,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/aorise_gray_line" />
+        android:background="@color/common_gray_line" />
 
     <TextView
         android:id="@+id/tv_content"
@@ -68,7 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="@dimen/common_size_10dp"
-        android:background="@color/aorise_gray_line" />
+        android:background="@color/common_gray_line" />
 
     <LinearLayout
         android:id="@+id/cancel_sure_container"
@@ -90,7 +90,7 @@
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="@color/aorise_gray_line" />
+            android:background="@color/common_gray_line" />
 
         <TextView
             android:id="@+id/sure"
@@ -106,5 +106,5 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/aorise_gray_line" />
+        android:background="@color/common_gray_line" />
 </LinearLayout>

@@ -14,7 +14,7 @@ import android.util.Log;
  */
 public class BaseLog {
     private static boolean sDebug = true;
-    private static String sTagPrefix = "cn.aorise.common";
+    private static String sTagPrefix = "com.android.common";
 
 
     private BaseLog() {

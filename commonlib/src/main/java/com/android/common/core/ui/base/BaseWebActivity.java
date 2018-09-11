@@ -9,9 +9,10 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.android.common.R;
 import com.android.common.core.util.BaseLog;
 
-import cn.aorise.common.R;
+
 
 
 /**
