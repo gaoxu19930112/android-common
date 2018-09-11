@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" >
+
+        <!--<include layout="@layout/aorise_include_toolbar" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/aorise_size_25dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/aorise_login_logo_top"
+                    android:src="@drawable/aorise_def_logo" />
+
+                <cn.aorise.common.core.ui.view.ClearEyeEditText
+                    android:id="@+id/et_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/aorise_login_acount_top"
+                    app:hint="@string/aorise_component_prompt_account"
+                    app:toggleEyeEnable="false" />
+
+                <cn.aorise.common.core.ui.view.ClearEyeEditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/aorise_size_20dp"
+                    app:hint="@string/aorise_component_prompt_password"
+                    app:toggleEyeEnable="true" />
+
+                <!--                <CheckBox
+                                    android:id="@+id/cb_password"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/aorise_margin_micro"
+                                    android:layout_marginTop="@dimen/aorise_size20"
+                                    android:button="@drawable/aorise_ic_choose_selector"
+                                    android:checked="true"
+                                    android:paddingLeft="@dimen/aorise_size10"
+                                    android:text="@string/platform_record_password"
+                                    android:textSize="@dimen/aorise_font_size_middle" />-->
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/cb_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/aorise_size_4dp"
+                    android:layout_marginTop="@dimen/aorise_size_20dp"
+                    android:checked="true"
+                    android:paddingLeft="@dimen/aorise_size_10dp"
+                    android:text="@string/aorise_component_record_password"
+                    android:textSize="@dimen/aorise_font_size_middle" />
+
+                <Button
+                    android:id="@+id/btn_sign_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/aorise_login_btn_height"
+                    android:layout_marginTop="@dimen/aorise_size_30dp"
+                    android:background="@drawable/aorise_btn_blue_selector"
+                    android:text="@string/aorise_component_action_sign_in"
+                    android:textColor="@color/aoriseLoginTxtColor"
+                    android:textSize="@dimen/aorise_font_size_middle"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+</layout>
