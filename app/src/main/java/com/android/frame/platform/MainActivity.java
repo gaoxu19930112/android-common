@@ -2,9 +2,10 @@ package com.android.frame.platform;
 
 import android.databinding.DataBindingUtil;
 
-import com.android.common.core.ui.base.BaseActivity;
+import com.android.frame.platform.base.SampleBaseActivity;
 
-public class MainActivity extends BaseActivity {
+
+public class MainActivity extends SampleBaseActivity {
 
 
     @Override

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="common_anim_rotate_duration">1000</integer>
-    <integer name="common_anim_shake_duration">1000</integer>
-    <integer name="common_anim_shake_cycle_num">5</integer>
-    <integer name="common_anim_activity_duration">300</integer>
-    <integer name="common_anim_zoom_in_duration">300</integer>
+    <integer name="aorise_anim_rotate_duration">1000</integer>
+    <integer name="aorise_anim_shake_duration">1000</integer>
+    <integer name="aorise_anim_shake_cycle_num">5</integer>
+    <integer name="aorise_anim_activity_duration">300</integer>
+    <integer name="aorise_anim_zoom_in_duration">300</integer>
 </resources>
