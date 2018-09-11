@@ -1,6 +1,8 @@
 apply plugin: 'com.android.library'
 // apply from: '../config/quality.gradle'
 apply plugin: 'org.greenrobot.greendao'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.gaoxu19930112'
 
 
 greendao {
