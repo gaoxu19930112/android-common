@@ -12,6 +12,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initView() {
+
         DataBindingUtil.setContentView(this, R.layout.activity_second);
     }
 
