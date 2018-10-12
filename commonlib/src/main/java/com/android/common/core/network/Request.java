@@ -9,9 +9,9 @@ import okhttp3.RequestBody;
 
 /**
  * <pre>
- *     author : tangjy
- *     e-mail : jianye.tang@aorise.org
- *     time   : 2017/09/14
+ *     author : gaoxu
+ *     e-mail : 511527070@qq.com
+ *     time   : 2018/10/12
  *     desc   : 统一的联网请求实体
  *     version: 1.0
  * </pre>

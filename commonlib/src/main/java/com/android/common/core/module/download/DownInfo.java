@@ -7,10 +7,14 @@ import org.greenrobot.greendao.annotation.Keep;
 import org.greenrobot.greendao.annotation.Unique;
 
 /**
- * apk下载请求数据基础类
- * Created by WZG on 2016/10/20.
+ * <pre>
+ *     author : gaoxu
+ *     e-mail : 511527070@qq.com
+ *     time   : 2018/10/12
+ *     desc   : apk下载请求数据基础类
+ *     version: 1.0
+ * </pre>
  */
-
 @Entity
 public class DownInfo{
     @Id(autoincrement = true)

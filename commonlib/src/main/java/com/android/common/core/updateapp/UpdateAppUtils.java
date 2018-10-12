@@ -27,14 +27,12 @@ import com.trello.rxlifecycle2.android.ActivityEvent;
 import java.util.List;
 
 
-
-
 /**
  * <pre>
- *     author : Mark
- *     e-mail : makun.cai@aorise.org
- *     time   : 2018/06/11
- *     desc   : TODO
+ *     author : gaoxu
+ *     e-mail : 511527070@qq.com
+ *     time   : 2018/10/12
+ *     desc   :
  *     version: 1.0
  * </pre>
  */

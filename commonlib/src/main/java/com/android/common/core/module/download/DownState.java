@@ -1,10 +1,15 @@
 package com.android.common.core.module.download;
 
-/**
- * 下载状态
- * Created by WZG on 2016/10/21.
- */
 
+/**
+ * <pre>
+ *     author : gaoxu
+ *     e-mail : 511527070@qq.com
+ *     time   : 2018/10/12
+ *     desc   : 下载状态
+ *     version: 1.0
+ * </pre>
+ */
 public enum  DownState {
     START(0),
     READY(1),

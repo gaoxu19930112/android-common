@@ -7,8 +7,6 @@ import android.os.Build;
 import android.os.Environment;
 import android.os.Looper;
 
-import com.umeng.analytics.MobclickAgent;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -20,9 +18,9 @@ import java.util.Date;
 
 /**
  * <pre>
- *     author : tangjy
- *     e-mail : jianye.tang@aorise.org
- *     time   : 2017/03/17
+ *     author : gaoxu
+ *     e-mail : 511527070@qq.com
+ *     time   : 2018/10/12
  *     desc   : 异常捕获上传管理类
  *     version: 1.0
  * </pre>
@@ -101,8 +99,8 @@ public class CrashHandlerUtils implements Thread.UncaughtExceptionHandler {
         if (ex == null) {
             return false;
         }
-
-        MobclickAgent.reportError(mContext, ex);
+        //  友盟异常捕获
+//        MobclickAgent.reportError(mContext, ex);
 
         //使用Toast来显示异常信息
         new Thread() {

@@ -14,9 +14,9 @@ import com.bumptech.glide.module.GlideModule;
 
 /**
  * <pre>
- *     author : Mark
- *     e-mail : makun.cai@aorise.org
- *     time   : 2018/05/28
+ *     author : gaoxu
+ *     e-mail : 511527070@qq.com
+ *     time   : 2018/10/12
  *     desc   : Glide配置类
  *     version: 1.0
  * </pre>

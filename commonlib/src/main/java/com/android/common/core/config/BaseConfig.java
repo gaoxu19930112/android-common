@@ -5,7 +5,7 @@ import com.android.common.core.constant.MemoryConstants;
 /**
  * <pre>
  *     author : gaoxu
- *     e-mail : xu.gao@aorise.org
+ *     e-mail : 511527070@aorise.org
  *     time   : 2018/08/13
  *     desc   :
  *     version: 1.0

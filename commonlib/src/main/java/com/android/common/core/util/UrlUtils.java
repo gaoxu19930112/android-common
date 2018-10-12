@@ -7,9 +7,9 @@ import io.reactivex.annotations.NonNull;
 
 /**
  * <pre>
- *     author : Mark
- *     e-mail : makun.cai@aorise.org
- *     time   : 2018/06/15
+ *     author : gaoxu
+ *     e-mail : 511527070@qq.com
+ *     time   : 2018/10/12
  *     desc   : URL工具类
  *     version: 1.0
  * </pre>

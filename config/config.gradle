@@ -1,7 +1,8 @@
 // ext is a gradle closure allowing the declaration of global properties
 ext {
-    PUBLISH_ORG = 'aorise-android-group'
-    PUBLISH_GROUP_ID = 'cn.aorise'
+    PUBLISH_REPO_NAME = 'MyMaven'
+    PUBLISH_ORG = 'gaoxu930112'
+    PUBLISH_GROUP_ID = 'com.gaoxu'
     PUBLISH_ARTIFACT_ID = 'android-common'
     //PUBLISH_VERSION = android.defaultConfig.versionName
 }

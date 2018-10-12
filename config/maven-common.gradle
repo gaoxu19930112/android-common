@@ -1,12 +1,43 @@
+//生成源文件
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+//生成Javadoc文档
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+//文档打包成jar
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+//拷贝javadoc文件
+task copyDoc(type: Copy) {
+    from "${buildDir}/docs/"
+    into "docs"
+}
+
+//上传到JCenter所需要的源码文件
+artifacts {
+    archives javadocJar
+    archives sourcesJar
+}
+
 // 添加到Bintray仓库
 apply plugin: 'com.novoda.bintray-release'
 
 publish {
-    userOrg = rootProject.ext.PUBLISH_ORG                   // 用户名/organization
+//    repoName = rootProject.ext.PUBLISH_REPO_NAME            //  bintray仓库名
+    userOrg = rootProject.ext.PUBLISH_ORG                   // 用户名/organization/
     groupId = rootProject.ext.PUBLISH_GROUP_ID              // jcenter上的路径
     artifactId = rootProject.ext.PUBLISH_ARTIFACT_ID        // 项目名称
     publishVersion = android.defaultConfig.versionName
     //publishVersion = android.defaultConfig.versionName + '-SNAPSHOT'
-    desc = 'Aorise Technology Co., Ltd. android public library'
-    website = 'https://github.com/aorise-org'
+    desc = 'gaoxu outsourcing android public library'
+    website = 'https://github.com/gaoxu19930112'
 }

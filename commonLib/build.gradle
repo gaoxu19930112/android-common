@@ -1,7 +1,8 @@
+
+
 apply plugin: 'com.android.library'
 // apply from: '../config/quality.gradle'
 apply plugin: 'org.greenrobot.greendao'
-
 
 greendao {
     schemaVersion 1
@@ -21,7 +22,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
-        versionName '1.1.19'
+        versionName '1.1.32'
         multiDexEnabled true
 
         testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
@@ -91,20 +92,30 @@ dependencies {
     api 'org.greenrobot:greendao:3.2.0'
     api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
     // 统计
-    api 'com.umeng.analytics:analytics:6.1.2'
+//    api 'com.umeng.analytics:analytics:6.1.2'
 }
 
 /**
- * 执行命令 gradle clean build bintrayUpload -PbintrayUser=aorise -PbintrayKey=219c9dafc270156a778386fef141654c0e1a7a4e -PdryRun=false
+ * 正常发布bintray
+ * 执行命令 gradlew clean build bintrayUpload -PbintrayUser=用户名 -PbintrayKey=用户APIkey -PdryRun=false
+ *
+ *
+ * 如发现Skipping upload for missing file '***\build\publications\release\pom-default.xml'
+ * 选择android studio右侧的gradle 选择需要发布的包里build文件夹 先 clean 后build
+ * 之后选择publishing文件夹执行generatePomFileForReleasePublication
+ * 在执行 publishReleasePublicationToMavenLocal
+ * 最候在底部Terminal命令行中执行gradlew bintrayUpload -PbintrayUser=用户名 -PbintrayKey=用户APIkey -PdryRun=false
  */
+
 apply from: '../config/maven-common.gradle'
+//
+///**
+// * 执行命令 gradle uploadArchives
+// */
+//apply from: '../config/snapshot-common.gradle'
+//
+///**
+// * 执行命令 gradle sonarqube
+// */
+//apply from: '../config/sonarqube.gradle'
 
-/**
- * 执行命令 gradle uploadArchives
- */
-apply from: '../config/snapshot-common.gradle'
-
-/**
- * 执行命令 gradle sonarqube
- */
-apply from: '../config/sonarqube.gradle'

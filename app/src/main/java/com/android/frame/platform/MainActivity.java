@@ -3,13 +3,11 @@ package com.android.frame.platform;
 import android.databinding.DataBindingUtil;
 
 import com.android.common.core.ui.base.BaseActivity;
+
 public class MainActivity extends BaseActivity {
-
-
 
     @Override
     protected void initData() {
-
     }
 
     @Override
@@ -19,6 +17,5 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initEvent() {
-
     }
 }

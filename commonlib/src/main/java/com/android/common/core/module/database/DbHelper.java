@@ -5,14 +5,15 @@ import android.content.Context;
 import com.android.common.core.module.multilang.DaoMaster;
 import com.android.common.core.module.multilang.DaoSession;
 
-
 /**
- * Author: gaoxu
- * TIME: 2017/7/31
- * Description: This is DbHelper
- * Function:
+ * <pre>
+ *     author : gaoxu
+ *     e-mail : 511527070@qq.com
+ *     time   : 2018/10/12
+ *     desc   : 数据库帮助类
+ *     version: 1.0
+ * </pre>
  */
-
 public class DbHelper {
     private static final String DB_NAME = "mark_load.db";
     private static DbHelper mInstance;

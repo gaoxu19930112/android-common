@@ -2,9 +2,9 @@ package com.android.common.core.constant;
 
 /**
  * <pre>
- *     author : tangjy
- *     e-mail : jianye.tang@aorise.org
- *     time   : 2017/03/17
+ *     author : gaoxu
+ *     e-mail : 511527070@qq.com
+ *     time   : 2018/10/12
  *     desc   : 正则相关常量
  *     version: 1.0
  * </pre>

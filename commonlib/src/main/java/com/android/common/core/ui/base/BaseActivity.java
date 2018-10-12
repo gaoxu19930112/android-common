@@ -20,18 +20,14 @@ import com.android.common.core.util.BaseLog;
 import com.android.common.core.util.CrashHandlerUtils;
 import com.android.common.core.util.HandlerUtils;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
-import com.umeng.analytics.MobclickAgent;
 
 import java.io.File;
 
-
-
-
 /**
  * <pre>
- *     author : tangjy
- *     e-mail : jianye.tang@aorise.org
- *     time   : 2017/03/17
+ *     author : gaoxu
+ *     e-mail : 511527070@qq.com
+ *     time   : 2018/10/12
  *     desc   : Activity基类
  *     version: 1.0
  * </pre>
@@ -73,13 +69,13 @@ public abstract class BaseActivity extends RxAppCompatActivity implements CrashH
     @Override
     protected void onResume() {
         super.onResume();
-        MobclickAgent.onResume(this);
+//        MobclickAgent.onResume(this);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        MobclickAgent.onPause(this);
+//        MobclickAgent.onPause(this);
     }
 
     protected void onDestroy() {
