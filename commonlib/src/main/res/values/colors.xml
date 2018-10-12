@@ -154,13 +154,13 @@
     <color name="black">#000000</color> <!--黑色 -->
 
     <!-- component模块 -->
-    <color name="aoriseBtn">#1edfdb</color>
-    <color name="aoriseBtnEnd">#34bee0</color>
-    <color name="aoriseBtnUnavailable">#4c1edfdb</color>
-    <color name="aoriseBtnUnavailableEnd">#ec34bee0</color>
-    <color name="aoriseHint">#999999</color>
-    <color name="aoriseDividNormal">#999999</color>
-    <color name="aoriseDividActivated">#01ecfd</color>
-    <color name="aoriseLoginTxtColor">#f9ffff</color>
-    <color name="aorise_gray_line">#D2D2D2</color>
+    <color name="commonBtn">#1edfdb</color>
+    <color name="commonBtnEnd">#34bee0</color>
+    <color name="commonBtnUnavailable">#4c1edfdb</color>
+    <color name="commonBtnUnavailableEnd">#ec34bee0</color>
+    <color name="commonHint">#999999</color>
+    <color name="commonDividNormal">#999999</color>
+    <color name="commonDividActivated">#01ecfd</color>
+    <color name="commonLoginTxtColor">#f9ffff</color>
+    <color name="common_gray_line">#D2D2D2</color>
 </resources>

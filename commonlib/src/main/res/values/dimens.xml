@@ -1,91 +1,91 @@
 <resources>
     <!-- Default app dimen, per the Android Design guidelines. Start -->
     <!-- 字体大小 -->
-    <dimen name="aorise_font_size_micro">10sp</dimen>
-    <dimen name="aorise_font_size_small">12sp</dimen>
-    <dimen name="aorise_font_size_normal">14sp</dimen>
-    <dimen name="aorise_font_size_middle">15sp</dimen>
-    <dimen name="aorise_font_size_big">16sp</dimen>
-    <dimen name="aorise_font_size_large">18sp</dimen>
-    <dimen name="aorise_font_size_xlarge">24sp</dimen>
-    <dimen name="aorise_font_size_huge">36sp</dimen>
+    <dimen name="common_font_size_micro">10sp</dimen>
+    <dimen name="common_font_size_small">12sp</dimen>
+    <dimen name="common_font_size_normal">14sp</dimen>
+    <dimen name="common_font_size_middle">15sp</dimen>
+    <dimen name="common_font_size_big">16sp</dimen>
+    <dimen name="common_font_size_large">18sp</dimen>
+    <dimen name="common_font_size_xlarge">24sp</dimen>
+    <dimen name="common_font_size_huge">36sp</dimen>
     <!-- 字体大小 -->
 
     <!-- 组件 -->
-<!--    <dimen name="aorise_space_nano">2dp</dimen>
-    <dimen name="aorise_space_micro">4dp</dimen>
-    <dimen name="aorise_space_small">8dp</dimen>
-    <dimen name="aorise_space_normal">10dp</dimen>
-    <dimen name="aorise_space_medium">16dp</dimen>
-    <dimen name="aorise_space_middle">24dp</dimen>
-    <dimen name="aorise_space_big">32dp</dimen>
-    <dimen name="aorise_space_large">48dp</dimen>
-    <dimen name="aorise_space_xlarge">64dp</dimen>
-    <dimen name="aorise_space_huge">96dp</dimen>
+<!--    <dimen name="common_space_nano">2dp</dimen>
+    <dimen name="common_space_micro">4dp</dimen>
+    <dimen name="common_space_small">8dp</dimen>
+    <dimen name="common_space_normal">10dp</dimen>
+    <dimen name="common_space_medium">16dp</dimen>
+    <dimen name="common_space_middle">24dp</dimen>
+    <dimen name="common_space_big">32dp</dimen>
+    <dimen name="common_space_large">48dp</dimen>
+    <dimen name="common_space_xlarge">64dp</dimen>
+    <dimen name="common_space_huge">96dp</dimen>
 
-    <dimen name="aorise_width_huge">240dp</dimen>
-    <dimen name="aorise_width_xlarge">180dp</dimen>
-    <dimen name="aorise_width_large">120dp</dimen>
-    <dimen name="aorise_width_big">60dp</dimen>
-    <dimen name="aorise_width_middle">48dp</dimen>
-    <dimen name="aorise_width_normal">32dp</dimen>
-    <dimen name="aorise_width_small">16dp</dimen>
+    <dimen name="common_width_huge">240dp</dimen>
+    <dimen name="common_width_xlarge">180dp</dimen>
+    <dimen name="common_width_large">120dp</dimen>
+    <dimen name="common_width_big">60dp</dimen>
+    <dimen name="common_width_middle">48dp</dimen>
+    <dimen name="common_width_normal">32dp</dimen>
+    <dimen name="common_width_small">16dp</dimen>
 
-    <dimen name="aorise_height_huge">240dp</dimen>
-    <dimen name="aorise_height_xlarge">180dp</dimen>
-    <dimen name="aorise_height_large">120dp</dimen>
-    <dimen name="aorise_height_big">60dp</dimen>
-    <dimen name="aorise_height_middle">48dp</dimen>
-    <dimen name="aorise_height_normal">32dp</dimen>
-    <dimen name="aorise_height_small">16dp</dimen>-->
+    <dimen name="common_height_huge">240dp</dimen>
+    <dimen name="common_height_xlarge">180dp</dimen>
+    <dimen name="common_height_large">120dp</dimen>
+    <dimen name="common_height_big">60dp</dimen>
+    <dimen name="common_height_middle">48dp</dimen>
+    <dimen name="common_height_normal">32dp</dimen>
+    <dimen name="common_height_small">16dp</dimen>-->
     <!-- 组件 -->
 
     <!-- 其他 -->
-    <dimen name="aorise_title_height">48dp</dimen>
+    <dimen name="common_title_height">48dp</dimen>
 
-    <dimen name="aorise_dialog_width">250dp</dimen>
+    <dimen name="common_dialog_width">250dp</dimen>
 
-    <dimen name="aorise_stroke_size_normal">1px</dimen>
-    <dimen name="aorise_stroke_size_middle">1dp</dimen>
+    <dimen name="common_stroke_size_normal">1px</dimen>
+    <dimen name="common_stroke_size_middle">1dp</dimen>
 
-    <dimen name="aorise_divider_size_micro">1px</dimen>
-    <dimen name="aorise_divider_size_normal">2px</dimen>
-    <dimen name="aorise_divider_size_middle">2dp</dimen>
+    <dimen name="common_divider_size_micro">1px</dimen>
+    <dimen name="common_divider_size_normal">2px</dimen>
+    <dimen name="common_divider_size_middle">2dp</dimen>
 
-    <dimen name="aorise_cardview_corner_radius">8dp</dimen>
-    <dimen name="aorise_cardview_elevation">4dp</dimen>
-    <dimen name="aorise_fab_margin">16dp</dimen>
+    <dimen name="common_cardview_corner_radius">8dp</dimen>
+    <dimen name="common_cardview_elevation">4dp</dimen>
+    <dimen name="common_fab_margin">16dp</dimen>
 
-    <dimen name="aorise_size_1dp">1dp</dimen>
-    <dimen name="aorise_size_2dp">2dp</dimen>
-    <dimen name="aorise_size_3dp">3dp</dimen>
-    <dimen name="aorise_size_4dp">4dp</dimen>
-    <dimen name="aorise_size_5dp">5dp</dimen>
-    <dimen name="aorise_size_6dp">6dp</dimen>
-    <dimen name="aorise_size_7dp">7dp</dimen>
-    <dimen name="aorise_size_8dp">8dp</dimen>
-    <dimen name="aorise_size_9dp">9dp</dimen>
-    <dimen name="aorise_size_10dp">10dp</dimen>
-    <dimen name="aorise_size_11dp">11dp</dimen>
-    <dimen name="aorise_size_12dp">12dp</dimen>
-    <dimen name="aorise_size_13dp">13dp</dimen>
-    <dimen name="aorise_size_14dp">14dp</dimen>
-    <dimen name="aorise_size_15dp">15dp</dimen>
-    <dimen name="aorise_size_16dp">16dp</dimen>
-    <dimen name="aorise_size_17dp">17dp</dimen>
-    <dimen name="aorise_size_18dp">18dp</dimen>
-    <dimen name="aorise_size_19dp">19dp</dimen>
-    <dimen name="aorise_size_20dp">20dp</dimen>
-    <dimen name="aorise_size_25dp">25dp</dimen>
-    <dimen name="aorise_size_30dp">30dp</dimen>
-    <dimen name="aorise_size_35dp">35dp</dimen>
-    <dimen name="aorise_size_40dp">40dp</dimen>
-    <dimen name="aorise_size_50dp">50dp</dimen>
-    <dimen name="aorise_size_60dp">60dp</dimen>
-    <dimen name="aorise_size_70dp">70dp</dimen>
-    <dimen name="aorise_size_80dp">80dp</dimen>
-    <dimen name="aorise_size_90dp">90dp</dimen>
-    <dimen name="aorise_size_100dp">100dp</dimen>
+    <dimen name="common_size_1dp">1dp</dimen>
+    <dimen name="common_size_2dp">2dp</dimen>
+    <dimen name="common_size_3dp">3dp</dimen>
+    <dimen name="common_size_4dp">4dp</dimen>
+    <dimen name="common_size_5dp">5dp</dimen>
+    <dimen name="common_size_6dp">6dp</dimen>
+    <dimen name="common_size_7dp">7dp</dimen>
+    <dimen name="common_size_8dp">8dp</dimen>
+    <dimen name="common_size_9dp">9dp</dimen>
+    <dimen name="common_size_10dp">10dp</dimen>
+    <dimen name="common_size_11dp">11dp</dimen>
+    <dimen name="common_size_12dp">12dp</dimen>
+    <dimen name="common_size_13dp">13dp</dimen>
+    <dimen name="common_size_14dp">14dp</dimen>
+    <dimen name="common_size_15dp">15dp</dimen>
+    <dimen name="common_size_16dp">16dp</dimen>
+    <dimen name="common_size_17dp">17dp</dimen>
+    <dimen name="common_size_18dp">18dp</dimen>
+    <dimen name="common_size_19dp">19dp</dimen>
+    <dimen name="common_size_20dp">20dp</dimen>
+    <dimen name="common_size_25dp">25dp</dimen>
+    <dimen name="common_size_30dp">30dp</dimen>
+    <dimen name="common_size_35dp">35dp</dimen>
+    <dimen name="common_size_40dp">40dp</dimen>
+    <dimen name="common_size_50dp">50dp</dimen>
+    <dimen name="common_size_60dp">60dp</dimen>
+    <dimen name="common_size_70dp">70dp</dimen>
+    <dimen name="common_size_80dp">80dp</dimen>
+    <dimen name="common_size_90dp">90dp</dimen>
+    <dimen name="common_size_100dp">100dp</dimen>
     <!-- 其他 -->
     <!-- Default app dimen, per the Android Design guidelines. End -->
 
@@ -94,8 +94,8 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <!-- component登录 -->
-    <dimen name="aorise_login_logo_top">85dp</dimen>
-    <dimen name="aorise_login_acount_top">76dp</dimen>
-    <dimen name="aorise_login_btn_height">46dp</dimen>
+    <dimen name="common_login_logo_top">85dp</dimen>
+    <dimen name="common_login_acount_top">76dp</dimen>
+    <dimen name="common_login_btn_height">46dp</dimen>
 
 </resources>
