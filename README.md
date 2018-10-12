@@ -1,7 +1,7 @@
 通用Android基础框架
 ## Android公共库 `android-common`
 ***
-###介绍
+### 介绍
 * 统一的联网请求接口
 * 统一的图片请求接口
 * 统一的数据库操作接口
@@ -15,7 +15,7 @@
 * 支持Rxjava2
 * 内置大部分常用工具类
 
-###使用方式
+### 使用方式
 ```
 repositories {
     maven { url 'https://dl.bintray.com/gaoxu930112/maven/'}
