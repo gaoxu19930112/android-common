@@ -11,7 +11,7 @@ greendao {
 }
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 34
     // buildToolsVersion '26.0.2'
 
     dataBinding {
@@ -19,13 +19,13 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 26
+        minSdkVersion 24
+        targetSdkVersion 34
         versionCode 1
         versionName '1.1.32'
         multiDexEnabled true
 
-        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
     buildTypes {
@@ -58,20 +58,21 @@ android {
 
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
+//    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+//        exclude group: 'com.android.support', module: 'support-annotations'
+//    })
     testImplementation 'junit:junit:4.12'
     // ui
-    api 'com.android.support:appcompat-v7:26.0.2'
-    api 'com.android.support:design:26.0.2'
-    api 'com.android.support:recyclerview-v7:26.0.2'
+    api 'androidx.appcompat:appcompat:1.2.0'
+    api 'com.google.android.material:material:1.2.1'
+    api 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     // glide
-    api 'com.android.support:support-v4:26.0.2'
-    api ('com.github.bumptech.glide:glide:3.7.0') {
-        exclude group: 'com.android.support', module: 'support-v4'
-    }
-    api 'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar'
+//    api 'androidx.legacy:legacy-support-v4:1.0.0'
+    // 图片加载框架
+    api 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+//    api 'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar'
     //    api 'com.github.bumptech.glide:glide:4.3.1'
     //    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
     //    api 'com.github.bumptech.glide:okhttp3-integration:4.3.1'
@@ -89,8 +90,8 @@ dependencies {
     api 'io.reactivex.rxjava2:rxjava:2.1.3'
     api 'io.reactivex.rxjava2:rxandroid:2.0.1'
     api 'com.google.code.gson:gson:2.8.0'
-    api 'org.greenrobot:greendao:3.2.0'
-    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
+    api 'org.greenrobot:greendao:3.3.0'
+    api 'io.github.cymchad:BaseRecyclerViewAdapterHelper:3.0.14'
     // 统计
 //    api 'com.umeng.analytics:analytics:6.1.2'
 }
@@ -107,7 +108,7 @@ dependencies {
  * 最候在底部Terminal命令行中执行gradlew bintrayUpload -PbintrayUser=用户名 -PbintrayKey=用户APIkey -PdryRun=false
  */
 
-apply from: '../config/maven-common.gradle'
+//apply from: '../config/maven-common.gradle'
 //
 ///**
 // * 执行命令 gradle uploadArchives

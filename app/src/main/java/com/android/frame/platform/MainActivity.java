@@ -1,6 +1,6 @@
 package com.android.frame.platform;
 
-import android.databinding.DataBindingUtil;
+import androidx.databinding.DataBindingUtil;
 
 import com.android.common.core.ui.base.BaseActivity;
 

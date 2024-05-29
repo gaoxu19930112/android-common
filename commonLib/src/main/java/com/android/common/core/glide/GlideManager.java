@@ -1,17 +1,13 @@
 package com.android.common.core.glide;
 
 import android.content.Context;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
 import android.widget.ImageView;
+
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
 
 import com.android.common.core.util.BaseLog;
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.resource.drawable.GlideDrawable;
-import com.bumptech.glide.request.RequestListener;
-import com.bumptech.glide.request.target.Target;
-
-
 
 
 /**
@@ -46,7 +42,6 @@ public class GlideManager {
     public <T> void load(final Context context, ImageView view, T uri) {
         Glide.with(context)
                 .load(uri)
-                .listener(getRequestListener())
                 .into(view);
     }
 
@@ -65,26 +60,9 @@ public class GlideManager {
                 .load(uri)
                 .placeholder(placeholder)
                 .error(error)
-                .listener(getRequestListener())
                 .into(view);
     }
 
-    @NonNull
-    private <T> RequestListener<T, GlideDrawable> getRequestListener() {
-        return new RequestListener<T, GlideDrawable>() {
-            @Override
-            public boolean onException(Exception e, T model, Target<GlideDrawable> target, boolean isFirstResource) {
-                BaseLog.e(TAG, e.toString());
-                return false;
-            }
-
-            @Override
-            public boolean onResourceReady(GlideDrawable resource, T model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
-                BaseLog.e(TAG, "onResourceReady");
-                return false;
-            }
-        };
-    }
 
     /**
      * 清空图片缓存

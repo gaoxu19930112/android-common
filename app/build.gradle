@@ -14,20 +14,20 @@ greendao {
  * 2. gradlew build /assembleRelease
  */
 android {
-    compileSdkVersion 26
+    compileSdkVersion 34
     // buildToolsVersion "26.0.2"
     dataBinding {
         enabled = true
     }
     defaultConfig {
         applicationId "cn.android.platform"
-        minSdkVersion 15
-        targetSdkVersion 26
+        minSdkVersion 24
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0.2"
         multiDexEnabled true
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
     buildTypes {
@@ -62,7 +62,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     testImplementation 'junit:junit:4.12'

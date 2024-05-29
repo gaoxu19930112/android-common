@@ -1,8 +1,9 @@
 package com.android.common.core.network;
 
 
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
+
+import androidx.annotation.NonNull;
 
 import com.android.common.core.config.BaseConfig;
 import com.android.common.core.util.BaseLog;

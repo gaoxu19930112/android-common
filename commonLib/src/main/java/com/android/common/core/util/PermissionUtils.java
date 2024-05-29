@@ -4,8 +4,9 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.v4.content.ContextCompat;
+
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 
 import com.android.common.core.constant.PermissionConstants;
 import com.android.common.core.constant.PermissionConstants.Permission;

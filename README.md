@@ -15,12 +15,3 @@
 * 支持Rxjava2
 * 内置大部分常用工具类
 
-### 使用方式
-```
-repositories {
-    maven { url 'https://dl.bintray.com/gaoxu930112/maven/'}
-}
-dependencies {
-    api 'com.gaoxu:android-common:1.1.0'
-}
-```

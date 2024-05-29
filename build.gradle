@@ -4,14 +4,16 @@ apply from: 'config/config.gradle'
 buildscript {
     repositories {
         google()
+        mavenCentral()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.android.tools.build:gradle:4.1.3'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
-        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.1'
+        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.3.1'
 
 //        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.0'
 //        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
@@ -19,7 +21,7 @@ buildscript {
 //        // Remove it if you won't to publish SNAPSHOT version.
 //        classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.0.0"
 
-        classpath 'com.novoda:bintray-release:0.8.0'
+//        classpath 'com.novoda:bintray-release:0.8.0'
 //        classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.5'
     }
 }
@@ -33,8 +35,8 @@ allprojects {
         // maven { url "https://raw.githubusercontent.com/tangjianye/AoriseMaven/master" }
         maven { url "https://jitpack.io" }
         // maven { url 'https://maven.google.com/' }
-        maven { url 'https://dl.bintray.com/gaoxu930112/maven/'}
-        maven { url 'https://dl.google.com/dl/android/maven2/' }
+//        maven { url 'https://dl.bintray.com/gaoxu930112/maven/'}
+//        maven { url 'https://dl.google.com/dl/android/maven2/' }
     }
 
     // bintray 上传如果注释中有中文，可能会出现：编码GBK的不可映射字符

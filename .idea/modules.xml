@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-common.iml" filepath="$PROJECT_DIR$/android-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/commonLib/commonLib.iml" filepath="$PROJECT_DIR$/commonLib/commonLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/android-common.iml" filepath="$PROJECT_DIR$/.idea/android-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-common.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-common.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-common.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-common.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-common.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-common.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-common.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-common.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonLib/android-common.commonLib.iml" filepath="$PROJECT_DIR$/.idea/modules/commonLib/android-common.commonLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonLib/android-common.commonLib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/commonLib/android-common.commonLib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonLib/android-common.commonLib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/commonLib/android-common.commonLib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonLib/android-common.commonLib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/commonLib/android-common.commonLib.unitTest.iml" />
     </modules>
   </component>
 </project>

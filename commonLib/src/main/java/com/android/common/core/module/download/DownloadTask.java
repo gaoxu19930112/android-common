@@ -1,7 +1,8 @@
 package com.android.common.core.module.download;
 
 import android.os.Environment;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 import com.android.common.core.util.UrlUtils;
 
