@@ -16,8 +16,8 @@ greendao {
 android {
     compileSdkVersion 34
     // buildToolsVersion "26.0.2"
-    dataBinding {
-        enabled = true
+    buildFeatures {
+        viewBinding = true
     }
     defaultConfig {
         applicationId "cn.android.platform"

@@ -3,6 +3,7 @@ package com.android.frame.platform;
 import androidx.databinding.DataBindingUtil;
 
 import com.android.common.core.ui.base.BaseActivity;
+import com.android.frame.platform.databinding.ActivityMainBinding;
 
 public class MainActivity extends BaseActivity {
 
@@ -12,8 +13,8 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initView() {
-
-        DataBindingUtil.setContentView(this, R.layout.activity_second);
+        ActivityMainBinding binding =  ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
     }
 
     @Override

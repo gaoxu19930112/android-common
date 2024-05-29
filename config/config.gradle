@@ -7,5 +7,5 @@ ext {
     //PUBLISH_VERSION = android.defaultConfig.versionName
 
     group = 'com.github.gaoxu930112'
-    version = '1.0.0'
+    version = '1.0.1'
 }
